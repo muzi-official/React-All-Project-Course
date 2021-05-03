@@ -1,0 +1,54 @@
+.Navbar {
+    display: flex;
+    padding: 5px 25px;
+}
+.Navbar__category{
+    display: flex;
+    height: 60px;
+}
+.Navbar__category > span {
+    margin-top: 12px;
+    margin-left: 5px;
+}
+.Navbar__category > h3 {
+    height: 30px;
+    font-size: large;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.Navbar__sub{
+    display: flex;
+    margin-left: 20px;
+    flex-wrap: wrap;
+    flex: 1;
+
+}
+
+.Navbar__sub > h4 > a {
+    border-bottom: none;
+    margin-left: 5px;
+    font-size: large;
+    font-weight: 400;
+    padding: 6px;
+    cursor: pointer;
+}
+.Navbar__sub > h4 >a:hover {
+    color: springgreen;
+}
+.Navbar__category > .Select {
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+
+@media screen and (max-width: 730px) {
+    .Navbar__sub {
+        margin-left: 15px;
+    }
+    .Navbar__sub > h4 > a {
+        font-size: 13px;
+        font-weight: 400;
+    }
+
+}

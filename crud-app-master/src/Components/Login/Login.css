@@ -1,0 +1,71 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 10px;
+  object-position: center;
+  z-index: 100;
+}
+
+.login_title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.login_inputs {
+  margin-top: 20px;
+}
+
+.login_submit {
+  width: 300px;
+  margin: 5px;
+  padding: 15px 25px;
+  background-color: cadetblue;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 15px;
+}
+
+.login_textfield {
+  width: 300px;
+}
+.login_socialapps {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.login_facebookbtn {
+  margin-top: 10px;
+  width: 230px;
+  padding: 10px;
+  color: #fff;
+  background-color: #4c69ba;
+  text-shadow: 0 -1px 0 #354c8c;
+  border-right: #364e92 1px solid;
+  border: none;
+  outline: none;
+}
+
+.login_facebookbtn:hover,
+.login_facebookbtn:focus {
+  background-color: #5b7bd5;
+}
+.login_googlebtn {
+  margin-top: 10px;
+  width: 230px;
+  padding: 10px;
+  color: #fff;
+  background: #dd4b39;
+  border-right: #bb3f30 1px solid;
+  text-shadow: 0 -1px 0 #bb3f30;
+  border: none;
+  outline: none;
+}
+
+.login_googlebtn:hover,
+.login_googlebtn:focus {
+  background: #f0543f;
+}

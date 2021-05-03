@@ -1,0 +1,28 @@
+.logo_img {
+    object-fit: contain;
+    height: 150px;
+}
+
+
+.login__form > form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login__form > button {
+    width: 300px;
+    background-color: #002F34;
+    color: #eff2f5;
+    font-weight: 700;
+}
+
+.login__form > button:hover {
+    background-color: white;
+    color: #002F34;
+}
+
+.login__form {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}

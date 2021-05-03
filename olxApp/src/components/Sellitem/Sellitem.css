@@ -1,0 +1,108 @@
+.sellitem {
+    height: 100vh;
+    width: 100vw;
+}
+.sellitem__header{
+    display: grid;
+    place-items: center;
+}
+
+.sellitem__header > h2 {
+    margin-bottom: 20px;
+    margin-top: 0px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #002F34;
+}
+  
+.item >  input[type=text],input[type=number], select, .description {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    box-sizing: border-box;
+
+}
+.item > input, .description {
+    outline-style: none;
+}
+.item > input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+  
+.item >  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+  
+.item > input[type=submit] {
+    background-color: #002F34;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+.item > .cancel-btn {
+    background-color: #3A77FF;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    margin-right: 10px;
+    text-decoration: none;
+}
+.item > .cancel-btn > a {
+    text-decoration: none;
+    color: white;
+}
+  
+.item >  input[type=submit]:hover {
+    background-color: #022e35e3;
+}
+  
+.sellitem__form{
+    border-radius: 5px;
+    background-color: #F7F8F9;
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+
+}
+  
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+  
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@media screen and (max-width: 600px) {
+    .col-25, .col-75 {
+      width: 100%;
+      margin-top: 0;
+    }
+    .item > input[type=submit],.cancel-btn {
+        width: 100%;
+        margin-top: 0px;
+    }
+    .item > .cancel-btn{
+        margin-top: 5px;
+        margin-right: 0px;
+    }
+}

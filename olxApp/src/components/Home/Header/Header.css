@@ -1,0 +1,166 @@
+.header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #F7F8F9;
+    padding: 10px 5px;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0px 5px 8px -9px rgba(0,0,0,0.75);
+    flex: 1;
+}
+.header__left{
+    flex: 0.1;
+}
+
+.header__logo {
+    width: 60px;
+    object-fit: contain;
+    padding-left: 20px;
+}
+
+.olx_logo {
+    height: 50px;
+    width: 50px;
+}
+.header__center {
+    flex: 1;
+    display: flex;
+    padding-left: 10px;
+}
+
+ .header__input{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: 2px solid  #002F34;
+    border-radius: 4px 4px;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.header__input > input {
+    border: none;
+    background-color: transparent;
+    outline-width: 0;
+    font-size: larger;
+    padding: 5px;
+    width: 150px;
+}
+
+
+
+.header__search{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: 2px solid  #002F34;
+    border-radius: 4px 4px;
+    padding: 0 0 0 10px;
+    flex: 1;
+}
+
+.header__search:hover,
+.header__search:active {
+    border: 2px solid #2CE6DD;
+}
+
+
+
+.header__search > input {
+    border: none;
+    background-color: transparent;
+    outline-width: 0;
+    font-size: large;
+    flex: 1;
+}
+.header__search .searchLogo span {
+    margin: auto;
+    padding: 0 5px;
+
+}
+.header__search .searchLogo {
+    padding: 5px;
+    display: flex;
+    cursor: pointer;
+    background-color: #002F34;
+ 
+}
+ .header__right {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    flex: 0.2;
+} 
+
+.sellitem_page  {
+    font-weight: 500;
+    color: black;
+    font-size: large;
+    text-decoration: none;
+}
+
+.SellItem > a > Button {
+    margin-top: 5px;
+    border-radius: 999px;
+    background-color: transparent;
+    height: 60px;
+    width: 120px;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 7px 10px -7px rgba(0,0,0,0.5);
+    border: 6px solid ;
+    border-color: #23E5DB  #3A77FF #FFCE32 ;
+    
+}
+
+.Sell-btn {
+    font-weight: 600;
+    font-size: larger;
+    color: #002F34;
+}
+
+.SellItem > a > Button:hover {
+    background-color: transparent;
+} 
+.login {
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.login > a {
+    position: relative;
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid black;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+a:hover {
+    border-bottom: none;
+} 
+
+
+@media screen and (max-width: 990px){
+    .header__search > input {
+        width: 150px;
+    }
+    .header__input > input {
+        width: 90px;
+    }
+}
+@media screen and (max-width: 850px){
+    .header__search {
+        display: none;
+    }
+    .header__input {
+        display: none;
+    }
+} 
+

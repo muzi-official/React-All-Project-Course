@@ -1,0 +1,81 @@
+.mainHeader {
+  display: flex;
+  padding: 15px 25px;
+  background-color: #131921;
+  color: #fff;
+  position: sticky;
+  height: 60px;
+  flex: 1;
+  top: 0;
+  z-index: 100;
+}
+.header_left {
+  flex: 0.4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header_center {
+  margin-top: 10px;
+  flex: 0.2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header_right {
+  flex: 0.8;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.header_right_btn {
+  justify-content: space-between;
+}
+
+.todo_container {
+  flex: 1;
+  margin: 30px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo_add {
+  padding: 10px 20px;
+  flex: 0.8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo_add_input {
+  flex: 0.7;
+  box-shadow: 0 0 5pt 0.5pt #d3d3d3;
+  padding: 5px 20px;
+}
+.todo_add_input:active {
+  box-shadow: 0 0 5pt 2pt #d3d3d3;
+}
+
+.todo_list {
+  box-shadow: 0 0 3pt 1.5pt #d3d3d3;
+  padding: 10px 10px;
+  margin: 15px 35px;
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.todo_list_title {
+  width: 10%;
+  text-align: center;
+}
+
+.todo_edit_input {
+  flex: 0.3;
+  box-shadow: 0 0 5pt 0.5pt #d3d3d3;
+  padding: 5px 20px;
+}
